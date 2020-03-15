@@ -15,8 +15,7 @@
    header{
    	background-color:#0f0f15;
    	padding:35px 0 30px 0;
-   	/*display:flex;*/
-   }
+   	}
    a{
    	text-decoration: none;
    }
@@ -24,13 +23,30 @@
    	list-style-type:none;
    }
    header .container{
-   	display:flex;
+      display:flex;
+      justify-content: space-between;
    }
    .logo{
-   	/*display:flex;*/
-   	flex-basis:30%;
+     border:1px solid red;
    }
-   .nav_list ul{
-   	display: flex;
-   	flex-basis: 70%;
-    }
+   .logo a{
+      flex:0 0 auto;
+      margin-right:20px;
+   }
+  .nav_list{
+      display: flex;
+      /*justify-content:flex-end;*/
+
+}
+   .nav_list li{
+      padding:9px 0 10px 25px;
+      text-transform:capitalize;
+      /*display: inline-block;*/
+      border:1px solid blue;
+      /*flex:0 0 auto;*/
+   }
+   .nav_list li a{
+      color:#fff;
+   }
+
+ 
