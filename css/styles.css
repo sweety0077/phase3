@@ -4,7 +4,10 @@
 	box-sizing:border-box;
 }
 #wrapper{
-
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	line-height:26px;
 }
 .container{
 	width:1160px;
@@ -12,10 +15,11 @@
 	margin:auto;
 }
    /*----------------header-------------------*/
-   header{
+  header{
    	background-color:#0f0f15;
    	padding:35px 0 30px 0;
-   	}
+   	display:flex;
+    }
    a{
    	text-decoration: none;
    }
@@ -26,27 +30,21 @@
       display:flex;
       justify-content: space-between;
    }
-   .logo{
-     border:1px solid red;
-   }
    .logo a{
-      flex:0 0 auto;
       margin-right:20px;
    }
   .nav_list{
       display: flex;
-      /*justify-content:flex-end;*/
-
-}
+     }
    .nav_list li{
       padding:9px 0 10px 25px;
       text-transform:capitalize;
-      /*display: inline-block;*/
-      border:1px solid blue;
-      /*flex:0 0 auto;*/
-   }
+      flex:1 1 auto;
+     }
    .nav_list li a{
       color:#fff;
+      font-size:13px;
+      font-weight:600;
    }
 
  
