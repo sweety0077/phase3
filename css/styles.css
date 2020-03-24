@@ -285,7 +285,6 @@
       text-transform: uppercase;
     }
     .transform_image p{
-       font-size:16px;
        line-height:2;
     }
       /*----------------------------/partners data------------------------*/
@@ -305,7 +304,7 @@
       }
       .main{
         display:flex;
-        }
+       }
       .main_image{
         width:349px;
         height:349px;
@@ -331,7 +330,6 @@
       }
       .main p{
         color:#636363;
-        font-size:16px;
         line-height:2;
       }
       /*-----------------------------/main----------------------------------*/
@@ -339,14 +337,84 @@
      .team_members{
       background:url(../images/background.png);
       background-size: cover;
+      margin-top:150px;
+     }
+     .list_of_team_members > h2{
+      text-align: center;
+      text-transform: uppercase;
+      font-size:50px;
+      font-weight:700;
+      transform: translateY(-246px);
+      color:#232528;
+    }
+     .grid{
+         display:flex;
+         flex-wrap:wrap;
       }
-
      .grid_item{
         width:324px;
-        margin:0 60px 60px 0;
+        margin:0 60px 300px 0;
         height:450px;
+        transform:translateY(-170px);
      }
     .grid_item:nth-child(3n){
         margin-right:0;
      }
+     .grid_item img{
+      width:100%;
+      height:329px;
+     }
+     .grid_item h2{
+        font-weight:600;
+        font-size:34px;
+       color: #fff;
+       line-height:1;
+       margin-top:73px;
+     }
+     h2 small{
+      font-size:18px;
+    }
+    .grid_item p{
+      font-weight:600;
+      color:#959596;
+      margin:43px 0 42px 0;
+    }
+    .grid_item a{
+      background-color: #e3595d;
+      color:#fff;
+      padding:20px 25px;
+      border-radius: 10px;
+    }
+
      /*-----------------------------/team members-----------------------------*/    
+    /*--------------------------------subteam--------------------------------*/
+    .image_side{
+      padding:78px 0 184px 0;
+    }
+    .image_side_content{
+      display: flex;
+      margin-bottom:45px;
+      align-items:center;
+    }
+    .image_side_content img{
+      width:100%;
+      margin-right:64px;
+    }
+    .image_side_content div{
+      align-items:center;
+      justify-content: center;
+      font-weight:600;
+    }
+    .image_side_content h2{
+      font-size:34px;
+      color:#232528;
+      line-height: 1;
+      margin-bottom:44px;
+    }
+    .image_side_content p{
+      color:#636363;
+       }
+    /*--------------------------------/subteam---------------------------------*/
+    /*--------------------------------portfolio--------------------------------*/
+    
+    /*--------------------------------/portfolio--------------------------------*/
