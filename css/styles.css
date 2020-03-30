@@ -582,7 +582,7 @@
    }
   .list_of_bottom{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
   }
   .list_of_bottom li{
     text-align:center;
@@ -592,13 +592,33 @@
   .list_of_top{
     display:flex;
     justify-content:space-around;
-  }
+   }
   .list_of_top li{
-     text-align:center;
+    text-align:center;
     font-size:14px;
     font-weight:600;
   }
+  .position1{
+        /*margin-left:50px;*/
+  }
+  .position2{
+    /*margin-left:36px;*/
+  }
+  .position3{
+    /*margin-left:50px;*/
+  }
+  .position4{
+    /*margin-left:50px;*/
+  }
+  .position5{
+    /*margin-left:50px;*/
+  }
     /*----------------------------------/roadmap---------------------------------*/
+
+
+
+  
+ 
  
   
 
