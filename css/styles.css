@@ -538,7 +538,7 @@
     /*--------------------------------/portfolio--------------------------------*/
     /*----------------------------------roadmap---------------------------------*/
     .road_map{
-      margin:190px 0 118px 0;
+      margin:200px 0 118px 0;
      }
     .road_map h2{
       text-align:center;
@@ -547,7 +547,7 @@
       color:#232528;
     }
     .roadmap_line{
-      margin-top:250px;
+      margin-top:100px;
     }
    .circle{
        display:flex;
@@ -556,7 +556,7 @@
     }
    .line{
        border: 8px solid #f2f3f4;
-       transform:translateY(330px);
+       transform:translateY(27px);
        z-index:-1;
      }
     .fas{
@@ -580,6 +580,31 @@
    .circle_orange{
     color:#ff8465;
    }
+   .list_of_top{
+    display:flex;
+    justify-content:space-around;
+    }
+  .list_of_top li{
+    text-align:center;
+    font-size:14px;
+    font-weight:600;
+    margin-top:15px;
+  }
+  .position1{
+      transform: translateX(40px);
+  }
+  .position2{
+    transform: translateX(56px);
+  }
+  .position3{
+    transform: translateX(68px);
+  }
+  .position4{
+      transform: translateX(87px);
+  }
+  .position5{
+      transform: translateX(88px);
+  }
   .list_of_bottom{
     display:flex;
     justify-content:space-between;
@@ -588,32 +613,127 @@
     text-align:center;
     font-size:14px;
     font-weight:600;
+    margin-bottom:15px;
   }
-  .list_of_top{
+  .position6{
+      transform: translateX(-14px);
+  }
+  .position7{
+    transform: translateX(-43px);
+  }
+  .position8{
+    transform: translateX(-68px);
+  }
+  .position9{
+      transform: translateX(-87px);
+  }
+  .position10{
+      transform: translateX(-101px);
+  }
+ .tool_tip_top, .tool_tip_bottom{
     display:flex;
-    justify-content:space-around;
-   }
-  .list_of_top li{
+    justify-content: space-between;
+    position:relative;
+  }
+  .tool_tip_top li, .tool_tip_bottom li{
+    background:#232528;
+    color:#fff;
+    padding:10px 22px;
     text-align:center;
     font-size:14px;
     font-weight:600;
-  }
-  .position1{
-        /*margin-left:50px;*/
-  }
-  .position2{
-    /*margin-left:36px;*/
-  }
-  .position3{
-    /*margin-left:50px;*/
-  }
-  .position4{
-    /*margin-left:50px;*/
-  }
-  .position5{
-    /*margin-left:50px;*/
-  }
+   }
+   .tool_tip_top li::after{
+      content:'';
+      position:absolute;
+      bottom:-20px;
+      width:0;
+      height:0;
+      border:10px solid transparent;
+      border-top-color:#232528;
+   }
+   .tooltop1,.tooltop2,.tooltop3,.tooltop4,.tooltop5{
+    position:relative;
+   }
+   .tooltop1,.tooltop2{
+      left:-32px;
+   }
+   .tooltop3{
+      left:-60px;
+   }
+   .tooltop4,.tooltop5{
+      left:-82px;
+   }
+   .tooltop1::after{
+        left:36px;   
+   }
+    .tooltop2::after{
+        left:67px;   
+   }
+    .tooltop3::after{
+        left:75px;   
+   }
+    .tooltop4::after{
+        left:53px;   
+   }
+    .tooltop5::after{
+        left:52px;   
+    }
+    .tool_tip_bottom li::after{
+      content:'';
+      position:absolute;
+      top:-20px;
+      width:0;
+      height:0;
+      border:10px solid transparent;
+      border-bottom-color:#232528;
+   }
+    .toolbottom1,.toolbottom2,.toolbottom3,.toolbottom4,.toolbottom5{
+       position:relative;
+     }
+    .toolbottom1{
+        left:61px;
+    }
+    .toolbottom2{
+        left:70px;
+    }
+    .toolbottom3{
+        left:96px;
+    }
+    .toolbottom4{
+        left:80px;
+    }
+    .toolbottom5{
+        left:56px;
+    }
+    .toolbottom1::after{
+        right:70px;
+    }
+    .toolbottom2::after{
+        right:40px;
+     }
+    .toolbottom3::after{
+        right:55px;
+    }
+    .toolbottom4::after{
+        right:80px;
+    }
+    .toolbottom5::after{
+        right:59px;
+    }
     /*----------------------------------/roadmap---------------------------------*/
+    /*----------------------------------grid_item--------------------------------*/
+   .last_grid{
+    width: 50%;
+   }
+    .last_grid_item:nth-child(2){
+      margin-right:0;
+    }
+
+     /*----------------------------------/grid_item--------------------------------*/
+   
+
+  
 
 
 
