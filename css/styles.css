@@ -199,6 +199,8 @@
         background-color:#fff;
         padding:16px 20px;
         margin-left:16px;
+        font-size:40px;
+        color:#3767fc;
       }
       h2.news{
         font-size:18px;
@@ -724,13 +726,137 @@
     /*----------------------------------/roadmap---------------------------------*/
     /*----------------------------------grid_item--------------------------------*/
    .last_grid{
-    width: 50%;
-   }
-    .last_grid_item:nth-child(2){
+    display:flex;
+    margin-bottom:155px;
+    }
+  .last_grid_item:nth-child(2){
       margin-right:0;
     }
-
-     /*----------------------------------/grid_item--------------------------------*/
+    .aliens{
+      width:540px;
+      height:400px;
+      margin-bottom: 40px;
+    }
+    .last_grid_item h2{
+      text-transform:capitalize;
+      font-size:26px;
+      color:#232528;
+      line-height:2.5;
+    }
+    .last_grid_item p{
+      line-height:2;
+    }
+    .grid1{
+    margin-right:66px;
+    }
+   .grid1 + img{
+     margin-top:73px;
+   }
+   .grid2 p{
+    margin-bottom:20px;
+   }
+   ul h3{
+    font-size:20px;
+    color:#959596;
+    margin-bottom: 34px;
+   }
+   .grid2 ul li + li{
+    margin-top:36px;
+  }
+  span{
+    background-color:#111770;
+     padding:7px;
+    border-radius:12px;
+    color:#fff;
+    margin-right:15px;
+    }
+      /*----------------------------------/grid_item--------------------------------*/
+      /*----------------------------------join-link---------------------------------*/
+      .join_link{
+        background-color:#438fd2;
+       }
+       .link{
+        display: flex;
+        justify-content:space-between;
+        padding:57px 0;
+        align-items:center;
+       }
+       .link h2{
+        color:#fff;
+        font-size:22px;
+       }
+      .messenger_image2{
+        background-color:#fff;
+        padding:24px 27px;
+        border-radius: 10px;
+        color:#438fd2;
+        font-weight: 700;
+        display:flex;
+        align-items:center;
+        }
+      .messenger_image2 img{
+        margin-right:14px;
+      }
+        /*----------------------------------/join-link---------------------------------*/
+        /*-----------------------------------footer----------------------------------------*/
+        footer{
+          background-color:#232528;
+          padding:59px 0 86px 0;
+        }
+        .footer{
+          display:flex;
+          align-items:center;
+        }
+        .map1{
+          font-size:16px;
+        }
+        .footer h2{
+          font-size:22px;
+          font-weight:600;
+          margin-bottom:43px;
+          color:#fff;
+        }
+        .footer i{
+          background-color:#fff;
+          padding:15px;
+          border-radius:25px;
+          color:#3767fc;
+        }
+        .footer a + a{
+          margin-left:12px;
+        }
+        .footer_left{
+          margin-right:180px;
+        }
+        input[type="email"]{
+        width:500px;
+        height:25px;
+        padding:33px 30px 33px 30px;
+        position:relative;
+        background-color: #2b2b35;
+        outline:1px solid #2b2b35;
+        border-radius: 7px 0 0 7px;
+       }
+      input[type="submit"]{
+        cursor:pointer;
+        height:71px;
+        width:160px;
+        position: absolute;
+        border:none;
+        color:#2b2b35;
+        font-weight:700;
+        border-radius: 0 7px 7px 0;
+      }   
+      input[placeholder]{
+        color:#fff;
+      }    
+       /*-------------------------------------/footer----------------------------------------*/
+    
+    
+ 
+  
+    
+   
    
 
   
